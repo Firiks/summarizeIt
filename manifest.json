@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SummarizeIt",
+  "version": "1.0",
+  "description": "Summarize text with a click",
+  "action": {
+    "default_popup": "dist/index.html",
+    "default_title": "SummarizeIt"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "dist/settings.html"
+  },
+  "author": "SummarizeIt"
+}
